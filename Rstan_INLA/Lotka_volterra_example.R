@@ -1,3 +1,4 @@
+library(rstan)
 lynx_hare_df <-
   read.csv("hare_data.csv",
            comment.char="#")

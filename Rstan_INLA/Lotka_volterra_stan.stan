@@ -1,7 +1,7 @@
 
 functions {
     real[] LV_model(
-        real ts,
+        real t,
         real[] z,
         real[] paras,
         real[] x_r,  // unused arguments that are default in integrate_ode_rk45
