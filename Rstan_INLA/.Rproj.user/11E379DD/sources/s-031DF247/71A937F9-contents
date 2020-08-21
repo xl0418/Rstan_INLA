@@ -1,0 +1,11 @@
+library(rstan)
+rstan_options(auto_write = TRUE)
+options(mc.cores = parallel::detectCores())
+library(INLA)
+library(tidyverse)
+set.seed(6619414)
+
+cache_dir = "_stan_vs_inla_cache/"
+if(!dir.exists(cache_dir)){
+  dir.create(cache_dir)
+}
