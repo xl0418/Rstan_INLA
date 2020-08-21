@@ -12,7 +12,7 @@ if(!dir.exists(cache_dir)){
 
 
 #The sizes of datasets to work with
-N_values = c(100, 500, 5000)
+N_values = c(100, 500, 1000)
 data = list()
 for(count_N in c(1:length(N_values))) {
   N = N_values[count_N]
